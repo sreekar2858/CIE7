@@ -2,6 +2,6 @@
 
 ## Gyroscope Reading
 
-X - Pitch
-Y - Roll
+X - Pitch;  
+Y - Roll; 
 Z - Yaw
