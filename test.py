@@ -1,26 +1,46 @@
+import os
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-# from tensorflow import keras
 
-gyrFile = "/home/sree/ExCIE/CIE_Project/SensorData/NormalWalking_60sec/Gyroscope.csv"
-accFile = "/home/sree/ExCIE/CIE_Project/SensorData/NormalWalking_60sec/Accelerometer.csv"
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
 
-gyrData = pd.read_csv(gyrFile)
-gyrTime = gyrData['Time (s)']
-gyrShape = gyrData.shape
+gyrFile = 'Gyroscope'
+accFile = 'Accelerometer'
 
-accData = pd.read_csv(accFile)
-accTime = accData['Time (s)']
-accShape = accData.shape
+rootdir = os.getcwd()
+os.chdir(rootdir)
 
-freqGyr = 1/(gyrTime[1]-gyrTime[0])
-freqAcc = 1/(accTime[1]-accTime[0])
+normal = 'normal'
+impaired = 'impaired'
+upstairs = 'upstairs'
+downstairs = 'downstairs'
 
-print("Frequency of Gyroscope: ", freqGyr)
-print("Frequency of Accelerometer: ", freqAcc)
-print(gyrShape)
-print(accShape)
+s1 = 'Smartphone1'
+s2 = 'Smartphone2'
+s3 = 'Smartphone3'
+s4 = 'Smartphone4'
 
-print(gyrData.tail(1))
-print(accData.tail(1))
+for subdir, dirs, files in os.walk(rootdir):
+    if s1 in subdir:
+        if normal in subdir:
+            for file in files:
+                if gyrFile in file:
+                    print(os.path.join(subdir, file))
+                    with open(os.path.join(subdir, file), 'r') as f: # open in readonly mode
+                        gyrData = pd.read_csv(f)
+                        gyrTime = gyrData['Time (s)']
+                        gyrShape = gyrData.shape
+                    
+                        freqGyr = 1/(gyrTime[1]-gyrTime[0])
+                    
+                    print("Frequency of Gyroscope: ", freqGyr)
+                    print(gyrShape)
+                    
+                    # print(gyrData.tail(1))
+                    # print(accData.tail(1))
+
+
+#End of file data import
