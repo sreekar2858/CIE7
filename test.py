@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import tensorflow as tf
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
@@ -44,3 +45,27 @@ for subdir, dirs, files in os.walk(rootdir):
 
 
 #End of file data import
+
+#AI model (sample)
+
+targetLabels = tf.to_categorical(gyrData[''])
+xData = gyrData.shape[1]
+
+gyr_input_data = gyrData.values
+
+model = Sequential()
+model.add(Dense(units=128, input_shape = (xData,)))
+model.add(Activation('relu'))
+model.add(Dense(units=1, input_shape = (xData,)))
+model.add(Activation('softmax'))
+
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+model.fit(gyr_input_data, y_train, batch_size=32, epochs=10)
+
+score = model.evaluate(gyr_input_data, y_test, batch_size=32)
+
+model.predict(gyr_input_data)
+
+print("\nLoss: ", score[0])
+print("Accuracy: ", score[1])
