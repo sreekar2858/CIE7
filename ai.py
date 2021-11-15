@@ -14,24 +14,24 @@ import dataProc
 
 # #AI model (sample)
 
-# targetLabels = tf.to_categorical(dataProc.gyrData[''])
-# xData = dataProc.gyrData.shape[1]
+targetLabels = tf.to_categorical(dataProc.gyrData[''])
+xData = dataProc.gyrData.shape[1]
 
-# gyr_input_data = dataProc.gyrData.values
+gyr_input_data = dataProc.gyrData.values
 
-# model = Sequential() 
-# model.add(Dense(units=128, input_shape = (xData,)))
-# model.add(Activation('relu'))
-# model.add(Dense(units=1, input_shape = (xData,)))
-# model.add(Activation('softmax'))
+model = Sequential() 
+model.add(Dense(units=128, input_shape = (xData,)))
+model.add(Activation('relu'))
+model.add(Dense(units=1, input_shape = (xData,)))
+model.add(Activation('softmax'))
 
-# model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-# model.fit(gyr_input_data, y_train, batch_size=32, epochs=10)
+model.fit(gyr_input_data, y_train, batch_size=32, epochs=10)
 
-# score = model.evaluate(gyr_input_data, y_test, batch_size=32)
+score = model.evaluate(gyr_input_data, y_test, batch_size=32)
 
-# model.predict(gyr_input_data)
+model.predict(gyr_input_data)
 
-# print("\nLoss: ", score[0])
-# print("Accuracy: ", score[1])
+print("\nLoss: ", score[0])
+print("Accuracy: ", score[1])
