@@ -1,3 +1,12 @@
+# Naming convention - gyr(oscope)+Ass(embly)+_s(martphone_location)) and Same for acceleraoemeter
+# All the data is stored in a tensor of this assembly list. So, gyrAss{gaitpos}_s{martphone_location}[0, 1, 2, .....] gives the data as sorted by name in the file directory.
+# gyrAssNormal_s1[0] gives the gyroscope data of the subject180_sample 01 in the normal gait position.
+# gyrAssNormal_s1[1] gives the gyroscope data of the subject180_sample 02 in the normal gait position.
+# 
+# gyrAssNormal_s[2] gives the gyroscope data of the subject181_sample 01 in the normal gait position.
+# 
+# and so on. 
+
 Frequency of gyrAssNormal_s1 [0] is : 99.89012106660697
 Frequency of accAssNormal_s1 [0] is : 99.89012106660697
 
