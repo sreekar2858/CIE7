@@ -1,0 +1,150 @@
+Frequency of gyrAssNormal_s1 [0] is : 99.89012106660697
+Frequency of accAssNormal_s1 [0] is : 99.89012106660697
+
+
+Frequency of gyrAssNormal_s1 [1] is : 99.89012106660697
+Frequency of accAssNormal_s1 [1] is : 99.89012111649717
+
+
+Frequency of gyrAssNormal_s1 [2] is : 99.90009990009989
+Frequency of accAssNormal_s1 [2] is : 99.90009988013985
+
+
+Frequency of gyrAssNormal_s1 [3] is : 99.90009990009989
+Frequency of accAssNormal_s1 [3] is : 99.90009992205597
+
+
+Frequency of gyrAssNormal_s1 [4] is : 99.91008012860365
+Frequency of accAssNormal_s1 [4] is : 99.9200644580259
+
+
+Frequency of gyrAssNormal_s1 [5] is : 99.91008132644652
+Frequency of accAssNormal_s1 [5] is : 99.9100813563926
+
+
+Frequency of gyrAssNormal_s3 [0] is : 99.89012113146423
+Frequency of accAssNormal_s3 [0] is : 99.89012113146423
+
+
+Frequency of gyrAssNormal_s3 [1] is : 99.89012106660698
+Frequency of accAssNormal_s3 [1] is : 99.89012106660697
+
+
+Frequency of gyrAssNormal_s3 [2] is : 20.066218521119698
+Frequency of accAssNormal_s3 [2] is : 20.066218509040098
+
+
+Frequency of gyrAssNormal_s3 [3] is : 100.21044192804902
+Frequency of accAssNormal_s3 [3] is : 100.21044200838597
+
+
+Frequency of gyrAssNormal_s3 [4] is : 445.3019971349256
+Frequency of accAssNormal_s3 [4] is : 444.7340157035582
+
+
+Frequency of gyrAssNormal_s3 [5] is : 443.80634953744436
+Frequency of accAssNormal_s3 [5] is : 451.40837154881365
+
+
+
+
+Frequency of gyrAssUpstairs_s1 [0] is : 392.0607694192599
+Frequency of accAssUpstairs_s1 [0] is : 395.0617283950614
+
+
+Frequency of gyrAssUpstairs_s1 [1] is : 399.7500762523268
+Frequency of accAssUpstairs_s1 [1] is : 399.63377560803275
+
+
+Frequency of gyrAssUpstairs_s1 [2] is : 99.9100808273453
+Frequency of accAssUpstairs_s1 [2] is : 99.90009992005997
+
+
+Frequency of gyrAssUpstairs_s1 [3] is : 99.90009990009989
+Frequency of accAssUpstairs_s1 [3] is : 99.89012092691446
+
+
+Frequency of gyrAssUpstairs_s1 [4] is : 99.9200644480419
+Frequency of accAssUpstairs_s1 [4] is : 99.92006324995958
+
+
+Frequency of gyrAssUpstairs_s1 [5] is : 99.91008132644652
+Frequency of accAssUpstairs_s1 [5] is : 99.91008010863958
+
+
+Frequency of gyrAssUpstairs_s3 [0] is : 99.89012086704626
+Frequency of accAssUpstairs_s3 [0] is : 99.8901209668266
+
+
+Frequency of gyrAssUpstairs_s3 [1] is : 99.8901208570682
+Frequency of accAssUpstairs_s3 [1] is : 99.8901208570682
+
+
+Frequency of gyrAssUpstairs_s3 [2] is : 100.21044192804875
+Frequency of accAssUpstairs_s3 [2] is : 100.21044197825957
+
+
+Frequency of gyrAssUpstairs_s3 [3] is : 100.51261433309867
+Frequency of accAssUpstairs_s3 [3] is : 100.51261422196815
+
+
+Frequency of gyrAssUpstairs_s3 [4] is : 443.6982426000017
+Frequency of accAssUpstairs_s3 [4] is : 442.74724666555977
+
+
+Frequency of gyrAssUpstairs_s3 [5] is : 443.7460867141982
+Frequency of accAssUpstairs_s3 [5] is : 443.0503127935205
+
+
+
+
+Frequency of gyrAssDownstairs_s1 [0] is : 391.2298780692965
+Frequency of accAssDownstairs_s1 [0] is : 399.21817113365194
+
+
+Frequency of gyrAssDownstairs_s1 [1] is : 391.9008208754603
+Frequency of accAssDownstairs_s1 [1] is : 399.1104626009548
+
+
+Frequency of gyrAssDownstairs_s1 [2] is : 99.90009999990019
+Frequency of accAssDownstairs_s1 [2] is : 99.91008082834351
+
+
+Frequency of gyrAssDownstairs_s1 [3] is : 99.9100810269858
+Frequency of accAssDownstairs_s1 [3] is : 99.91008084730935
+
+
+Frequency of gyrAssDownstairs_s1 [4] is : 99.92006444804183
+Frequency of accAssDownstairs_s1 [4] is : 99.92006329987969
+
+
+Frequency of gyrAssDownstairs_s1 [5] is : 99.92006324995957
+Frequency of accAssDownstairs_s1 [5] is : 99.91008127653639
+
+
+Frequency of gyrAssDownstairs_s3 [0] is : 99.89012083711214
+Frequency of accAssDownstairs_s3 [0] is : 99.89012090695839
+
+
+Frequency of gyrAssDownstairs_s3 [1] is : 99.88014382740711
+Frequency of accAssDownstairs_s3 [1] is : 99.88014380745501
+
+
+Frequency of gyrAssDownstairs_s3 [2] is : 100.21044192804875
+Frequency of accAssDownstairs_s3 [2] is : 100.2104419581753
+
+
+Frequency of gyrAssDownstairs_s3 [3] is : 100.21044192804875
+Frequency of accAssDownstairs_s3 [3] is : 100.21044182762759
+
+
+Frequency of gyrAssDownstairs_s3 [4] is : 441.8077358767325
+Frequency of accAssDownstairs_s3 [4] is : 442.858813067524
+
+
+Frequency of gyrAssDownstairs_s3 [5] is : 444.3840082193279
+Frequency of accAssDownstairs_s3 [5] is : 443.5638224023687
+
+
+
+
