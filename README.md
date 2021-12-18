@@ -1,4 +1,4 @@
-# CIE Project Group - 7
+# Sreekar Reddy - CIE Project Group - 7
 
 Project B 
 (Literature for regression problem with CNN)
