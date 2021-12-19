@@ -5,6 +5,7 @@ Project B
 
 References -    
 https://github.com/hfawaz/dl-4-tsc
+https://keras.io/examples/timeseries/timeseries_weather_forecasting/
 
 1. https://arxiv.org/pdf/1809.04356.pdf
 2. https://www.mdpi.com/2079-9292/8/4/375/pdf
