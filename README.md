@@ -1,10 +1,10 @@
 # Sreekar Reddy - CIE Project Group - 7
 
 Project B 
-(Literature for regression problem with CNN)
+(CNN-LSTM Model)
 
 References -    
-https://github.com/hfawaz/dl-4-tsc
+https://github.com/hfawaz/dl-4-tsc  
 https://keras.io/examples/timeseries/timeseries_weather_forecasting/
 
 1. https://arxiv.org/pdf/1809.04356.pdf
