@@ -1,4 +1,4 @@
-# Sreekar Reddy - CIE Project Group - 7
+# Sreekar Reddy - (CNN-LSTM Model) - CIE Project Group - 7
 
 Project B 
 (CNN-LSTM Model)
