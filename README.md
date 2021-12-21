@@ -1,1 +1,2 @@
 # CIE7
+https://www.researchgate.net/publication/337233389_A_Convolutional_Neural_Network_for_Impact_Detection_and_Characterization_of_Complex_Composite_Structures
