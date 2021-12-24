@@ -1,7 +1,6 @@
-# Sreekar Reddy - (CNN-LSTM Model) - CIE Project Group - 7
+# Sreekar Reddy - (FF and ---) - CIE Project Group - 7
 
 Project B 
-(CNN-LSTM Model)
 
 References -    
 https://github.com/hfawaz/dl-4-tsc  
