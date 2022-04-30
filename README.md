@@ -1,4 +1,10 @@
-# Sreekar Reddy - (FF and ---) - CIE Project Group - 7
+# CIE Project Group - 7
+
+Part of courseware final project at RWTH Aachen university.
+
+Project A - implemented FFNN model to classify gait from mobile sensor data
+Project B - implemented FFNN, CNN (AlexNet, NIN), and ResNet to predict impact location on a plate from piezoelectric sensor data.
+
 
 Project B 
 
